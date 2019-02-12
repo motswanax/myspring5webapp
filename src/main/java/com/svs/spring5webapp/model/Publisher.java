@@ -1,5 +1,6 @@
 package com.svs.spring5webapp.model;
 
+import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -10,6 +11,7 @@ import javax.persistence.Id;
  *
  * This is the book publisher who has a one to one relation to the book.
  */
+@Entity
 public class Publisher {
 
     @Id
